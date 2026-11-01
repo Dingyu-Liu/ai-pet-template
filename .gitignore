@@ -1,0 +1,12 @@
+node_modules/
+config/*.json
+!config/*.example.json
+*.log
+*.mp3
+*.png
+*.jpg
+*-state.json
+*-switch.txt
+credentials.json
+persona.md
+whale-*.md
