@@ -1,0 +1,15 @@
+{
+  "name": "jingduo-majsoul",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "桌宠自己的雀魂桥：CDP 挂专用 Edge + liqi 协议 + majiang-core 牌效",
+  "dependencies": {
+    "@kobalab/majiang-core": "^0.1.0",
+    "playwright-core": "^1.49.0",
+    "protobufjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
+  }
+}

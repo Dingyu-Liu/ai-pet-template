@@ -1,0 +1,22 @@
+{
+  "network": {
+    "httpServers": [],
+    "httpClients": [],
+    "websocketServers": [
+      {
+        "name": "<桥接名>",
+        "enable": true,
+        "host": "127.0.0.1",
+        "port": 3002,
+        "messagePostFormat": "array",
+        "token": "",
+        "enableForcePushEvent": true,
+        "heartInterval": 30000
+      }
+    ],
+    "websocketClients": []
+  },
+  "musicSignUrl": "",
+  "enableLocalFile2Url": false,
+  "parseMultMsg": false
+}

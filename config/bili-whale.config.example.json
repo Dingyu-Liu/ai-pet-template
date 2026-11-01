@@ -1,0 +1,76 @@
+{
+  "sessionRotateDays": 0,
+  "personaOncePerSession": true,
+  "owner": {
+    "mid": "<你的B站UID>",
+    "name": "<你的昵称>"
+  },
+  "self": {
+    "mid": "<机器人B站UID>",
+    "name": "<机器人昵称>"
+  },
+  "risk": {
+    "minGapMs": 1500,
+    "readHourly": 600,
+    "readDaily": 3000,
+    "writeHourly": 12,
+    "writeDaily": 30,
+    "writeGapSec": 120,
+    "dmGapSec": 60
+  },
+  "night": {
+    "windows": [
+      {
+        "start": "21:25",
+        "end": "23:00",
+        "wakes": 3
+      }
+    ],
+    "skipChance": 0.1,
+    "minGapMin": 40,
+    "maxVideos": 5,
+    "maxWakesPerDay": 3
+  },
+  "preferences": {
+    "like": [
+      "<兴趣1>",
+      "<兴趣2>"
+    ],
+    "dislike": [
+      "带货",
+      "标题党"
+    ]
+  },
+  "quota": {
+    "shareDaily": 3
+  },
+  "diary": {
+    "push": true,
+    "enabled": true
+  },
+  "persona": {
+    "name": "桌宠",
+    "ownerTitle": "主人",
+    "selfClaim": "我"
+  },
+  "notify": {
+    "type": "dm",
+    "url": "",
+    "template": "text",
+    "cmd": ""
+  },
+  "listen": {
+    "comment": true,
+    "commentIntervalSec": 60,
+    "scope": "both",
+    "oncePerPerson": false,
+    "allDay": false,
+    "dm": true,
+    "live": false
+  },
+  "share": {
+    "via": "dm",
+    "minScore": 13
+  },
+  "toolsPath": ""
+}

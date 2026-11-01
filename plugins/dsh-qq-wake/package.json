@@ -1,0 +1,21 @@
+{
+  "name": "dsh-qq-wake",
+  "version": "0.1.0",
+  "description": "把 QQ 私聊消息送进桌宠正在用的那个会话（同一条对话线），不是分出去的新会话。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml"
+  ]
+}
